@@ -91,11 +91,11 @@ foreach ($table_names as $table_name){
     $pre = 'pre_';
     $echo_table_name = str_replace($pre,"",$table_name);
     // 调试数据表
-    if($echo_table_name == 'pay_sockets'){
+    // if($echo_table_name == 'pay_sockets'){
 
-    }else{
-        continue;
-    }
+    // }else{
+    //     continue;
+    // }
     $table_schema_codes = [];
     $exclude_fields = ['created_at', 'updated_at'];
 
