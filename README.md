@@ -33,7 +33,7 @@ php -e start.php
 or
 
 ```
-php -e start.php <config file>
+php -e start.php (config file)
 ```
 
 # Output
